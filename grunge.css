@@ -1,0 +1,55 @@
+body {
+    background-color: #FEEB02;
+}
+.woahdude {
+    display: block; 
+    background-image: url("/img/woahdude-08.png");
+    background-size: contain;
+    width:100%;
+    height:80vh;
+    background-repeat: no-repeat;
+}
+.threat {
+    display: block; 
+    height: 80vh; 
+    margin:auto;
+    background-color: black;
+    color: white; 
+    font-size: 3em; 
+    font-family: 'Nosifer', cursive;
+}
+.garage {
+    display: block; 
+    background-image: url("/img/garage.png");
+    background-size: cover;
+    width:100%;
+    height:200vh;
+    background-repeat: no-repeat;
+    margin-top: -80px;
+}
+.nirvana {
+    display: absolute;
+    width: 10px;
+    margin-top: -1000px; 
+}
+.soundgarden {
+    background-image: url("/img/soundgarden.png");
+    background-size: contain;
+    width:100%;
+    height:80vh;
+    background-repeat: no-repeat;
+}
+.singles {
+    background-image: url("/img/singles.png");
+    background-size: contain;
+    width:100%;
+    height:80vh;
+    background-repeat: no-repeat;
+}
+.pearljam {
+    background-image: url("/img/pearljam.png");
+    background-size: contain;
+    width:100%;
+    height:80vh;
+    background-repeat: no-repeat;
+}

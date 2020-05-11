@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+}
+.girl {
+    display: block; 
+    margin: auto; 
+    background-image: url("/img/girl-01.png");
+    background-size: contain;
+    width:70vw;
+    height:100vh;
+    background-repeat: no-repeat;
+}
+.question {
+    font-size: 10em;
+    text-align: center;
+    margin-top: -200px; 
+    font-family: 'Patrick Hand', cursive;
+}
+.not {
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    line-height: 80px;
+    max-width: 600px;
+    margin-top: -90px; 
+}
+.list {
+    display: block; 
+    margin: auto; 
+    background-image: url("/img/list-02.png");
+    background-size: contain;
+    width:70vw;
+    height:100vh;
+    background-repeat: no-repeat;
+}
+ /* Phone Styles */
+    @media screen and (max-width: 767px) {
+    body {
+        background-color: white;
+    }
+    .question {
+        font-size: 8em;
+        margin-top: -400px;
+    }
+    .not {
+        font-size: 3em;
+        line-height: 60px;
+    }
+}

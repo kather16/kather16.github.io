@@ -1,0 +1,26 @@
+body {
+    background-color: white;
+}
+.pagecant {
+    font-size: 2em; 
+    text-align: center; 
+}
+.curse {
+    font-size: 10em;
+    text-align: center; 
+    margin: -100px; 
+}
+.glass {
+    display: absolute; 
+    background-image: url("/img/yogaglass.png");
+    background-size: contain;
+    width:100%;
+    height:400vh;
+    background-repeat: no-repeat;
+    margin-top: -800px; 
+}
+.paragraph_yoga{
+    font-size: 2em; 
+    line-height: 40px;
+    max-width: 600px;
+}
