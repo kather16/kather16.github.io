@@ -46,4 +46,33 @@ body {
     font-size: 20px;
     line-height: 30px;
     max-width: 600px;
+    margin-bottom: 50px; 
 }
+
+/* Phone Styles */
+@media screen and (max-width: 767px) {
+    .scribble {
+        margin: auto; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img {
+        margin: auto; 
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+.broken_links{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+    .http_main {
+        text-indent:10vw;
+        font-size: 3em; 
+}
+.subhead {
+    margin-top: -50px; 
+    text-indent:10vw;
+    font-size: 2em;   
+}
+}
+

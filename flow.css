@@ -1,5 +1,10 @@
 body {
     background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin:0px;
 }
 .pagecant {
     font-size: 2em; 
@@ -8,19 +13,34 @@ body {
 .curse {
     font-size: 10em;
     text-align: center; 
-    margin: -100px; 
 }
 .glass {
-    display: absolute; 
+    display: block; 
     background-image: url("/img/yogaglass.png");
     background-size: contain;
-    width:100%;
-    height:400vh;
+    width:100vw;
+    height:300vh;
     background-repeat: no-repeat;
-    margin-top: -800px; 
 }
 .paragraph_yoga{
     font-size: 2em; 
     line-height: 40px;
-    max-width: 600px;
+    position: absolute;
+    width: 40vw;
+    left: 25vw;
+    top: 36vw; 
+}
+/* Phone Styles */
+@media screen and (max-width: 767px) {
+    .paragraph_yoga{
+      font-size: 1em;  
+      line-height: 20px;
+      width: 50vw; 
+    }
+    .curse {
+        font-size: 6em;
+    }
+    .glass {
+        height: 140vh; 
+    }
 }

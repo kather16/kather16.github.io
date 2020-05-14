@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+}
+.cloud_404 {
+    display: block; 
+    margin: auto; 
+    background-image: url("/img/error404.png");
+    background-size: contain;
+    width:50vw;
+    height:40vh;
+    background-repeat: no-repeat;
+}
+.cloud_1 {
+    display: absolute; 
+    background-image: url("/img/cloud_yellow.png");
+    background-size: contain;
+    width:80vw;
+    height:60vh;
+    background-repeat: no-repeat;
+    margin-top: -250px; 
+}
+.cloud_2 {
+    width:90vw;
+    height:80vh;
+}
+.cloud_text {
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+    width: 100%; 
+    margin-top: -10px; 
+    font-size: 1em; 
+    max-width: 500px;
+    margin-left: 50vw;
+}
+img {
+    display: relative; 
+    height: auto; 
+    width: 100%; 
+    margin: auto; 
+}
+
+
+/* Phone Styles */
+@media screen and (max-width: 767px) {
+.cloud_1 {
+    display: absolute; 
+    background-image: url("/img/cloud_yellow.png");
+    background-size: contain;
+    width:80vw;
+    height:40vh;
+    background-repeat: no-repeat;
+    margin-top: -250px; 
+}
+.cloud_2 {
+    width:90vw;
+    height:80vh;
+}
+.cloud_text {
+    font-family: 'Roboto Mono', monospace;
+    text-align: right;
+    width: 100%; 
+    margin-top: -300px; 
+    font-size: 1em; 
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
